@@ -160,6 +160,14 @@
     <Compile Include="Migrations\202106122048150_PopulateNameInMembershipType.Designer.cs">
       <DependentUpon>202106122048150_PopulateNameInMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106122100306_AddedNullableBirthdayInCustomer.cs" />
+    <Compile Include="Migrations\202106122100306_AddedNullableBirthdayInCustomer.Designer.cs">
+      <DependentUpon>202106122100306_AddedNullableBirthdayInCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106122111088_AddedRequiresForNameInMembershipTypes.cs" />
+    <Compile Include="Migrations\202106122111088_AddedRequiresForNameInMembershipTypes.Designer.cs">
+      <DependentUpon>202106122111088_AddedRequiresForNameInMembershipTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -249,6 +257,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106122048150_PopulateNameInMembershipType.resx">
       <DependentUpon>202106122048150_PopulateNameInMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106122100306_AddedNullableBirthdayInCustomer.resx">
+      <DependentUpon>202106122100306_AddedNullableBirthdayInCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106122111088_AddedRequiresForNameInMembershipTypes.resx">
+      <DependentUpon>202106122111088_AddedRequiresForNameInMembershipTypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
